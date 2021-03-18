@@ -24,13 +24,24 @@
 }
 
 @media only screen and (max-width: 800px) {
-  /* For tablets and phones: */
+  /* For tablets */
   .time-select button,
   .sound-picker button {
     margin: -180px;
   }
   .player-container {
     height: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For tablets */
+  .time-select button,
+  .sound-picker button {
+    margin: -240px;
+  }
+  .player-container {
+    height: 20%;
   }
 }
 
