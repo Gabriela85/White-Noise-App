@@ -29,6 +29,9 @@
   .sound-picker button {
     margin: -180px;
   }
+  .player-container {
+    height: 40%;
+  }
 }
 
 .player-container {
